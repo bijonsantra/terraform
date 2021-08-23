@@ -14,9 +14,9 @@ provider "aws" {
   region = "us-west-2"
 }
 resource "aws_instance" "app_server" {
-  ami = "ami-02fda4abfe00bd2cf"
+  ami = "ami-04f36ec729e317f9d"
   instance_type = "t2.micro"
   tags = {
-   name = "Bijon_TF"
+   Name = "Bijon_TF"
   }
  }
