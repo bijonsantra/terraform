@@ -13,7 +13,7 @@ provider "aws" {
   profile = "default"
   region = "us-east-2"
 }
-resource "aws_instance" "app_server" {
+resource "aws_instance" "db_server" {
   ami = "ami-028f0daffc74d96ee"
   instance_type = "t2.micro"
   tags = {
