@@ -17,6 +17,6 @@ resource "aws_instance" "db_server" {
   ami = "ami-028f0daffc74d96ee"
   instance_type = "t2.micro"
   tags = {
-   Name = "Bijon_TF_edited"
+   Name = var.instance_name
   }
  }
