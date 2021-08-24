@@ -1,3 +1,3 @@
 output "id" {
-	value = aws_s3_bucket.drive.BILLINGCONTACT
+	value = aws_s3_bucket.drive.tags.BILLINGCONTACT
 }
