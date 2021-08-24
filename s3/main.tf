@@ -13,7 +13,7 @@ provider "aws" {
   region = "us-east-2"
 }
 resource "aws_s3_bucket" "drive" {
-  bucket = "my-tf-test-bucket"
+  bucket = "bijon_tf_test_bucket"
   acl    = "public-read"
   tags = {
     Name        = var.bucket_name
