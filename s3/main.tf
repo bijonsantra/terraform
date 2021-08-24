@@ -14,7 +14,7 @@ provider "aws" {
 }
 resource "aws_s3_bucket" "drive" {
   bucket = "my-tf-test-bucket"
-  acl    = "public"
+  acl    = "public-read"
   tags = {
     Name        = var.bucket_name
     Environment = var.bucket_env
